@@ -1,23 +1,18 @@
 {
   "name": "arson-assistant",
   "version": "1.0.0",
-  "description": "Sistema web para investigación de incendios desarrollado por SATA Ingeniería y Tecnología",
-  "main": "src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": ["incendios", "investigación", "fire", "arson", "React", "Firebase", "SATA"],
-  "author": "SATA Ingeniería y Tecnología",
-  "license": "MIT",
   "dependencies": {
-    "firebase": "^10.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
+    "@vitejs/plugin-react": "^4.1.0",
     "vite": "^5.0.0"
   }
 }
