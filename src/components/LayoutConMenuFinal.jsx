@@ -1,13 +1,10 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-
-const LayoutConMenuFinal = () => {
-  return (
-    <div>
-      <h1>Menú Lateral</h1>
-      <Outlet />
-    </div>
-  );
-};
-
-export default LayoutConMenuFinal;
+<aside className="sidebar">
+  <h2 className="logo">Arson Assistant</h2>
+  <nav>
+    <ul>
+      <li><a href="/">Dashboard</a></li>
+      <li><a href="/investigacion">Investigación</a></li>
+      {/* Otros links si es necesario */}
+    </ul>
+  </nav>
+</aside>
